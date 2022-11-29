@@ -1,0 +1,35 @@
+{
+  "strategy_name": "Diamond",
+  "params": {
+    "buy": {
+      "buy_fast_key": "high",
+      "buy_horizontal_push": 9,
+      "buy_slow_key": "high",
+      "buy_vertical_push": 0.635
+    },
+    "sell": {
+      "sell_fast_key": "close",
+      "sell_horizontal_push": 9,
+      "sell_slow_key": "open",
+      "sell_vertical_push": 1.401
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.067,
+      "15": 0.026,
+      "66": 0.013,
+      "148": 0
+    },
+    "stoploss": {
+      "stoploss": -0.091
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.231,
+      "trailing_stop_positive_offset": 0.311,
+      "trailing_only_offset_is_reached": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-11-28 10:26:49.751818+00:00"
+}
